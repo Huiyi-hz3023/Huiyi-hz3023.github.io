@@ -1,0 +1,13 @@
+---
+title: "Huiyi-hz3023"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### This Huiyi's website
+
+Hi! My name is Huiyi Zhu, and I am a second-year Master of Science student in Epidemiology at Columbia University’s Mailman School of Public Health. I previously earned a dual degree in Biology and Epidemiology from Indiana University Bloomington. My research interests focus on chronic diseases and maternal–child health, with a particular emphasis on how early-life exposures affect long-term health outcomes. I am currently involved in several research projects related to perinatal epidemiology, biological aging, and chronic disease risk.
+
+Here is my [Resume](about.html), you can also check it on the top right.
