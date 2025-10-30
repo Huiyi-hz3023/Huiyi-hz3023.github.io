@@ -1,0 +1,55 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+data("instacart")
+view("instacart")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A:Distribution of Add-to-Cart Order by Department
+
+```{r}
+instacart |>
+  plot_ly(
+  x = ~department, y = ~add_to_cart_order, type = "box",color = ~department)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B:Top Aisles by Number of Items Ordered (n>10000)
+
+```{r}
+instacart |> 
+  group_by(aisle) |>
+  summarize(items = n()) |>
+  filter(items > 10000) |>
+  plot_ly(x = ~aisle, y = ~items, color = ~aisle, type = "bar")
+```
+
+### Chart C:Instacart Orders by Hour of Day
+
+```{r}
+instacart |>
+  count(order_hour_of_day, name = "orders") |> 
+  plot_ly(
+  x = ~order_hour_of_day,
+  y = ~orders,
+  type = "scatter",
+  mode = "markers", alpha = 0.5
+)
+```
+

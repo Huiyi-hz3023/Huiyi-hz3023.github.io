@@ -16,23 +16,21 @@ output:
 ### Research Experience
 
 **Research Intern — Xiaogan Birth Cohort, Hubei, China**  
-*Summer 2022*  
 - Assisted with field follow-up assessments in a large prospective birth cohort.  
 - Collected and organized data on maternal nutrition, early childhood development, and behavioral outcomes.  
-- Helped administer **SDQ** and **Mini-Kids** neuropsychological assessments and ensured data integrity during digitization.
+- Helped administer SDQ and Mini-Kids neuropsychological assessments and ensured data integrity during digitization.
 
 **Undergraduate Research Assistant — Indiana University, School of Public Health**  
-*2021–2023*  
-- Participated in the **Hoosier STEMM+** project, coding and analyzing over 500 health-coaching questionnaires from intervention participants.  
+- Participated in the Hoosier STEMM+ project, coding and analyzing over 500 health-coaching questionnaires from intervention participants.  
 - Focused on body appreciation, self-perception, and behavior change outcomes using R and Excel.  
 - Collaborated with the research team on data quality assurance and survey instrument improvement.
 
 ---
 
 ### Skills
-- **Programming:** R, SAS, Stata, Qualtrics, Excel  
-- **Research Tools:** GitHub, R Markdown, Zotero, RedCap  
-- **Analysis:** Data cleaning, visualization, regression modeling, reproducible workflows  
-- **Soft Skills:** Communication, teamwork, bilingual (English & Mandarin)
+- Programming: R, SAS, Stata, Qualtrics, Excel  
+- Research Tools: GitHub, R Markdown, Zotero, RedCap  
+- Analysis: Data cleaning, visualization, regression modeling, reproducible workflows  
+- Soft Skills: Communication, teamwork, bilingual (English & Mandarin)
 
 ---

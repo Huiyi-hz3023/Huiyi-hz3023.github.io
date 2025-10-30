@@ -6,7 +6,7 @@ navbar:
     - text: "Resume"
       href: about.html
     - text: "Plot"
-      href: plot.html
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<huiyizhu0813@gmail.com>
     - icon: fa-github fa-lg
