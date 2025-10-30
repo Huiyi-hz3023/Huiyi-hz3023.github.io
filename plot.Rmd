@@ -4,9 +4,8 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
-
 ---
-```{r setup, include=FALSE}
+```{r}
 library(tidyverse)
 library(plotly)
 library(flexdashboard)
@@ -49,4 +48,6 @@ instacart |>
   mode = "markers", alpha = 0.5
 )
 ```
+
+
 
