@@ -38,7 +38,15 @@ instacart |>
 ```
 
 
-### scatterplots: 
+### scatterplots: Instacart Orders by Hour of Day
 ```{r}
+instacart |>
+  count(order_hour_of_day, name = "orders") |> 
+  plot_ly(
+  x = ~order_hour_of_day,
+  y = ~orders,
+  type = "scatter",
+  mode = "markers", alpha = 0.5
+)
 ```
 
