@@ -1,0 +1,44 @@
+---
+title: "plot"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+
+---
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(flexdashboard)
+```
+
+
+```{r}
+library(p8105.datasets)
+data("instacart")
+view("instacart") 
+```
+
+### bar plots: Top Aisles by Number of Items Ordered (n>10000)
+```{r}
+instacart |> 
+  group_by(aisle) |>
+  summarize(items = n()) |>
+  filter(items > 10000) |>
+  plot_ly(x = ~aisle, y = ~items, color = ~aisle, type = "bar")
+
+```
+
+
+### box plot: Distribution of Add-to-Cart Order by Department
+```{r}
+instacart |>
+  plot_ly(
+  x = ~department, y = ~add_to_cart_order, type = "box",color = ~department)
+```
+
+
+### scatterplots: 
+```{r}
+```
+
